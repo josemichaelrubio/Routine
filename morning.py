@@ -2,6 +2,9 @@ import subprocess
 import os
 import time
 import sys
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Function to open an Excel file and wait for it to close
 def open_and_wait_excel(excel_path):
@@ -34,8 +37,8 @@ def open_todoist():
     print("This function needs to be implemented based on ToDoist API or specific system commands.")
 
 # Paths to the Excel and Word files
-excel_path = 'path/to/excel.xlsx'
-word_path = 'path/to/word.docx'
+excel_path = os.getenv('VIRTUES_EXCEL_PATH')
+word_path = os.getenv('DEFINITE_STATEMENT_WORD_PATH')
 
 # Names of the macOS applications
 mac_app_name = 'AppOnMac'  # Replace with the actual app name

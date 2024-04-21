@@ -38,3 +38,4 @@ Pipfile.lock
 *.zip
 *.swp
 .DS_Store
+.env
