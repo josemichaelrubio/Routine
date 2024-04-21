@@ -1,0 +1,40 @@
+# FastAPI-specific exclusions
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info
+
+# Docker-related exclusions
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Virtual environment exclusions
+venv/
+env/
+.venv/
+.env/
+
+# IDE-specific exclusions (customize as needed)
+.idea/
+.vscode/
+*.ipynb_checkpoints/
+
+# Test coverage and build artifacts
+htmlcov/
+dist/
+site/
+.coverage
+coverage.xml
+
+# Logs and temporary files
+log.txt
+test.db
+
+# Miscellaneous
+Pipfile.lock
+*.lock
+*.bak
+*.zip
+*.swp
+.DS_Store
