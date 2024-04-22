@@ -23,6 +23,7 @@ todoist_path = os.getenv('MAC_TODOIST_PATH')
 outlook_path = os.getenv('MAC_OUTLOOK_PATH')
 gcal_path = os.getenv('MAC_GCAL_PATH')
 
+#TODO change paths to windows apps
 open_app(word_path)
 open_app(onenote_path)
 open_app(gcal_path)

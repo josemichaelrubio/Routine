@@ -22,6 +22,7 @@ todoist_path = os.getenv('MAC_TODOIST_PATH')
 gcal_path = os.getenv('MAC_GCAL_PATH')
 excel_path = os.getenv('VIRTUES_EXCEL_PATH')
 
+#TODO change paths to windows apps
 # Open word definite statement
 open_app(word_path)
 # Open gCal
