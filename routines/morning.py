@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Function to open a Word document
 def open_app(path):
     if sys.platform.startswith('darwin'):
         proc = subprocess.Popen(['open', '-W', path])
@@ -24,11 +23,8 @@ todoist_path = os.getenv('MAC_TODOIST_PATH')
 outlook_path = os.getenv('MAC_OUTLOOK_PATH')
 gcal_path = os.getenv('MAC_GCAL_PATH')
 
-# Running the sequence of actions
 open_app(word_path)
 open_app(onenote_path)
 open_app(gcal_path)
 open_app(todoist_path)
 open_app(outlook_path)
-
-
